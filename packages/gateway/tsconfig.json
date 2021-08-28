@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "target": "ESNext",
+        "lib": [
+            "ESNext",
+            "ESNext.asynciterable"
+        ],
+        "moduleResolution": "Node"
+    }
+}

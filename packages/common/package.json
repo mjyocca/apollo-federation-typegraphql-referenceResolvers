@@ -1,0 +1,34 @@
+{
+  "name": "@federation/common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist; tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/federation": "^0.30.0",
+    "apollo-graphql": "^0.9.3"
+  },
+  "devDependencies": {
+    "class-validator": "^0.13.1",
+    "graphql-tag": "^2.12.5",
+    "ts-node": "^10.2.1",
+    "graphql": "^15.5.1",
+    "type-graphql": "^1.1.1",
+    "typescript": "^4.4.2"
+  },
+  "peerDependencies": {
+    "class-validator": "^0.13.1",
+    "graphql": "^15.5.1",
+    "type-graphql": "^1.1.1",
+    "typescript": "^4.4.2"
+  }
+}

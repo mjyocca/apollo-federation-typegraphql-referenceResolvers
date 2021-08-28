@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "target": "es2019",
+        "declaration": true,
+        "lib": [
+            "es2020",
+            "ESNext.asynciterable"
+        ],
+        "moduleResolution": "Node",
+        "module": "commonjs",
+        "outDir": "dist",
+        "types": ["node"],
+        "sourceMap": true,
+    },  
+    "include": ["**/*.ts"],
+    "exclude": ["**/*.d.ts", "dist", "node_modules", "**/*.spec"]
+}
